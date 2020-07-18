@@ -53,7 +53,8 @@ body{
 }
 
 .title{
-
+    font-size: 22px;
+    color: #f1e296;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
