@@ -28,7 +28,6 @@ const server = app.listen(port, listening);
 
 // Callback to debug
 function listening(){
-    // console.log(server);
     console.log(`JHWeather now running on localhost: ${port}`);
   };
 
@@ -45,15 +44,11 @@ app.post('/add', addPost);
 
 const data = [];
 function addPost(req,res){
-  //res.send('POST received');
-  //data.push(req.body); //temp, date, userresponse (content)
-  //console.log(req.body);
   newEntry = {
       temp: req.body.temp,
       date: req.body.date,
       content: req.body.content
   }
-  //projectData[req.body.date] = newEntry;
   projectData = newEntry;
   res.send(projectData);
 };
