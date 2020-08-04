@@ -3,8 +3,14 @@
 ## Overview
 This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 
-## Instructions
+### Instructions
 This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+
+# Installation
+* clone directory and then navigate to root
+* run `npm install` on terminal to download dependencies
+* run `npm run start` or `node server.js` to open the server and start the app
+* open your browser and go to localhost:3000 to use the app! =)
 
 ## Process
 ### Server file
